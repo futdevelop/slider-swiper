@@ -99,7 +99,7 @@ new Swiper('.image-slider', {
 		slidesPerColumn: 1,
 	
 	// Бескінечний слайдер
-		loop: false,
+		loop: true,
 
 	// Кількість дублюючих слайдів
 		loopesSlides: 0,
