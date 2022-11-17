@@ -122,4 +122,66 @@ new Swiper('.image-slider', {
 
 	// Вертикальний слайдер
 		direction: 'horizontal',
+
+	// Ефект переключення слайда
+		// Листання 
+			effect: 'slide',
+
+		// Змінна прозорості
+			// effect: 'fade',
+
+		// Доповнення к fade
+			// fadeEffect: {
+				// Паралельне
+				// Змінна прозорості
+					// crossfade: true,
+			// }
+	// Переворот(ефект)
+		// effect: 'flip',
+
+		// Доповнення к flip
+			// flipsEffect: {
+				// Тінь
+						// slideShadows: true,
+					// Показ тільки одного слайду
+						// limitRotation: true
+			// }
+	// Куб
+		// effect: 'cube',
+
+			// Доповнення до куба
+				// cubeEffects: {
+					// Налаштування куба
+						// slideShadows: true,
+						// shadow: true,
+						// shadowOffset: 20,
+						// shadowScale: 0.94
+				// }
+	// Ефект потіка
+		// effect: 'coverFlow',
+
+	// Доповнення до coverFlow
+		// coverFlowEffect: {
+			// Кут
+				// rotate: 20,
+			// Наложення 
+				// stretch:  50,
+			// Тінь
+				// slideShadows: true,
+		// },
+	
+		// Брейк поінти(адаптив)
+		// Ширина екрана 
+		breakpoints: {
+			320: {
+				slidesPerView: 1,
+			},
+			480: {
+				slidesPerView: 2,
+			},
+			992: {
+				slidesPerView: 3,
+			}
+		}
+
 });
